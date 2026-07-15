@@ -17,7 +17,6 @@ scripts/
 
 docs/
   technical_report/   Current LaTeX technical report and report figures
-  run_notes/          Handoff notes and full-season run notes
 
 config/
   research_report.mplstyle
