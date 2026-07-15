@@ -1,0 +1,66 @@
+# Existing working directories retained locally but not tracked.
+Week 1/
+Week 2/
+Week 3/
+Week 4/
+Week 5/
+Week 6/
+Week 7/
+.tools/
+.vscode/
+
+# Local/editor/session files.
+.dodsrc
+/PROJECT_HANDOFF.md
+/STORAGE_CLEANUP_CANDIDATES.md
+/research_report.mplstyle
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large data and generated outputs.
+data/
+outputs/
+raw/
+cache/
+scratch/
+tmp/
+*.h5
+*.hdf
+*.hdf5
+*.nc
+*.tif
+*.tiff
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.7z
+*.part
+partial_*
+
+# Local reports/exports not part of the curated docs tree.
+adaPBS_summary.html
+adaPBS_summary.md
+PBS_FRAMEWORK_TECHNICAL_REPORT.html
+
+# Keep the curated GitHub-facing folders trackable.
+!scripts/
+!scripts/**
+!docs/
+!docs/**
+!config/
+!config/**
+!README.md
+!.gitignore
+
+# Re-ignore generated caches inside curated folders.
+scripts/**/__pycache__/
+scripts/**/*.py[cod]

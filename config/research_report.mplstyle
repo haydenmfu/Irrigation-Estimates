@@ -1,0 +1,36 @@
+font.family: serif
+font.serif: Times New Roman, Liberation Serif, DejaVu Serif
+font.size: 11
+axes.titlesize: 13
+axes.labelsize: 11
+xtick.labelsize: 9.5
+ytick.labelsize: 9.5
+legend.fontsize: 9.5
+legend.title_fontsize: 10
+figure.titlesize: 14
+
+axes.linewidth: 0.75
+axes.edgecolor: 333333
+axes.labelcolor: 222222
+xtick.color: 333333
+ytick.color: 333333
+text.color: 111111
+
+axes.grid: True
+grid.color: D7DEE8
+grid.alpha: 0.35
+grid.linewidth: 0.65
+
+axes.spines.top: False
+axes.spines.right: False
+axes.axisbelow: True
+legend.frameon: False
+figure.constrained_layout.use: True
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.facecolor: white
+figure.facecolor: white
+axes.facecolor: white
+
+image.cmap: viridis
+axes.prop_cycle: cycler('color', ['365C8D', '1F9E89', 'D8576B', 'B58D1D', '6D5ACF', '2389DA', '5C6773'])
