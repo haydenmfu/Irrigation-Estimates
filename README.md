@@ -112,16 +112,3 @@ docs/technical_report/pbs_framework_technical_report.tex
 ```
 
 It summarizes the absolute-SM trials, the Delta-SM PBS framework, the July proof-of-concept run, and the May-September 2020 full-season extension.
-
-## Data Policy
-
-This repository is intended to track source code, documentation, and lightweight figures only. It does not include:
-
-- raw SMAP/SMOS HDF5 granules,
-- CDL GeoTIFF rasters,
-- VIC particle output directories,
-- Hopper result archives,
-- extracted particle-state folders,
-- large generated CSV tables.
-
-Those artifacts should be regenerated or stored outside git.
