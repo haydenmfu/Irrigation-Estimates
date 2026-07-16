@@ -26,20 +26,7 @@ Large raw datasets, VIC run folders, weekly scratch directories, extracted archi
 
 ## Current PBS Workflow
 
-```mermaid
-flowchart LR
-    A[Initial VIC state ensemble] --> B[Sample particle irrigation for window w]
-    B --> C[Run VIC ensemble through window w]
-    C --> D[Map VIC and SMAP to observation target]
-    E[SMAP L3 observations + CDL mask] --> D
-    F[VIC forcing precipitation + open-loop VIC] --> D
-    D --> G[Compute particle likelihoods]
-    G --> H[Normalize weights and compute ESS]
-    H --> I[Estimate posterior irrigation]
-    H --> J[Systematic resampling]
-    J --> K[End states initialize window w+1]
-    K --> B
-```
+![Window-by-window PBS workflow](docs/technical_report/figures/pbs_workflow_diagram.png)
 
 The final Delta-SM workflow scores particles on changes in soil moisture rather than absolute soil-moisture levels:
 
